@@ -48,6 +48,7 @@ $(function () {
 
     var editormdTheme = $("#markdown").attr("editormdTheme");
     var dark = editormdTheme === 'dark';
+    editormd.emoji.path = "http://www.webpagefx.com/tools/emoji-cheat-sheet/graphics/emojis/";
     mdEditor = editormd("editormd", {
         width: "100%",
         height: 840,
